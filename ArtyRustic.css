@@ -6,9 +6,66 @@
 
 *{
 		font-family: 'Poppins', sans-serif;
-		color: #EEEDDE;
-		background-color: #203239;
 		text-decoration: none;
+		padding: 0;
+		text-decoration: none;
+		background-color: #474A56;
+		color: #8f8e8e;
+		max-width: 1000px;
+		min-width: 260px;
 }
 
+.contPrincipal{
+		position: absolute;
+		left: 5%;
+		top: 10%;
+		margin: auto;
 		
+		width: 100%;
+}
+
+.cabecalho{ 
+		position: absolute;
+		display: flex;
+		margin: auto;
+		justify-content: center;
+		text-align: center;
+		left: 25%;
+}
+.escritoPrin{
+		font-size: 22px;
+		margin: auto;
+}
+
+.prinDois{
+		position: absolute;
+		margin: auto;
+		left: 37%;
+		top: 68px;
+		padding: 10px;
+		border-left: 1px solid gray;
+}
+
+.foto{
+		position: absolute;
+		top: 50%;
+		left: 5%;
+		margin: auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+
+p_p{
+		font-size: 18px;
+		text-align: center;
+		margin: auto;
+}
+
+nav{
+		font-size: 32px;
+		position: absolute;
+		left: 5%;
+		top: 40%;
+		padding: 10px, 10px;
+} 
